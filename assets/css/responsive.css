@@ -1,0 +1,138 @@
+
+/* PC */
+@media (min-width: 1024px) {
+    #header .menu-moblie {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header .menu-moblie {
+        display: none;
+    }
+
+    .buy-btn {
+        font-size: 15px;
+        padding: 15px 16px;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-lists {
+        font-size: 40px;
+    }
+
+    #footer .copyright {
+        font-size: 22px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .navi > li {
+        display: block;
+    }
+
+    .navi .subnav {
+        position: initial;
+        background-color: #333;
+        width: auto;
+    }
+
+    .navi .subnav a {
+        padding: 15px 33px;
+    }
+
+    .navi .subnav a {
+        color: #fff;
+    }
+
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .navi {
+        display: block;
+    }
+
+    #header > .navi > li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-icon {
+        display: none;
+    }
+
+    #header .menu-moblie {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 15px 24px;
+    }
+
+    .menu-moblie:hover {
+        background-color: #ccc;
+    }
+
+    
+    #header .ti-menu {
+        color: white;
+        font-size: 16px;
+    }
+    
+    #header .menu-moblie:hover .ti-menu {
+        color: #000;
+    }
+
+    .text-slider {
+        display: none;
+    }
+
+    .member-item {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .member-img {
+        width: 230px;
+    }
+
+    .place-item {
+        width: 100%;
+        padding-top: 16px;
+    }
+
+    #moblie-width {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 30px;
+    }
+
+    .contact-form .form-submit-btn {
+        width: 100%;
+    }
+
+    .buy-btn {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-lists {
+        font-size: 26px;
+    }
+
+    #footer .social-lists a {
+        padding-right: 6px;
+    }
+
+}
